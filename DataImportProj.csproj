@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>85c99b92-f940-4ce6-ac2a-6f9d352c4d20</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.14.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="10.0.1" />
+  </ItemGroup>
+
+</Project>
