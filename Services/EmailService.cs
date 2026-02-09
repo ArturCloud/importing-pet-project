@@ -11,7 +11,7 @@ namespace DataImportProj.Services.ImportServices
             var msg = new MimeMessage();
 
             msg.From.Add(new MailboxAddress("", "testimportprojectemail@gmail.com"));
-            msg.To.Add(new MailboxAddress("", "lans.grimmo@gmail.com"));
+            msg.To.Add(new MailboxAddress("", ""));
             msg.Subject = "Import results";
             msg.Body = new TextPart("html")
             {
